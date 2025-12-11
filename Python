@@ -2,3 +2,9 @@ What is Python ?
 A high-level language, used in data science, automation, AI, web development and more.
 Known for its readability, which means code is easier to write, understand and maintain.
 Backed by strong library support, we don’t have to build everything from scratch.
+
+Provides Libraries / Frameworks like Django, Flask and many more for Web Development, and Pandas, Tensorflow, Scikit-learn and many more for, AI/ML, Data Science and Data Analysis
+
+# Python Program to Print Hello World!
+print("Hello World!")
+
