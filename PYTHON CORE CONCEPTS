@@ -1,0 +1,42 @@
+What is a Function in Python?
+A function is a block of reusable code that performs a specific task and runs only when it is called.
+Functions help avoid code repetition and make programs easier to manage.
+
+Simple Function Example
+def say_hello():
+    print("Hello!")
+
+
+What is a Parameter in Python?
+A parameter is a variable written inside a function definition that receives data when the function is called.
+📌 Parameters act as placeholders for values.
+Code Example (Parameter)
+def greet(name):      # name → parameter
+    print("Hello", name)
+name has no value yet
+It waits for input when the function is called
+
+What is an Argument in Python?
+An argument is the actual value passed to a function when the function is called.
+📌 Arguments provide real data to parameters.
+ Code Example (Argument)
+greet("Nidhi")   
+
+
+HR wants to greet different employees using the same system.
+Code Example
+def greet_employee(employee_name):     # parameter
+    print("Hello", employee_name)
+
+employee_name = input("Enter employee name: ")
+greet_employee(employee_name)          # argument
+
+### A function is a reusable block of code. Parameters are variables defined in a function to receive data, and arguments are the actual values passed when calling the function.####
+### Functions are reusable in Python because they allow developers to define logic once and execute it multiple times with different inputs using parameters.
+
+What Are Decorators in python ? 
+A decorator in Python is a function that adds extra behavior to another function without changing its original code.
+📌 In short:
+Decorator = extra feature added to an existing function
+
+
