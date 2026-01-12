@@ -48,3 +48,23 @@ SYNTAX:: def decorator(func):
         print("After function")
     return wrapper
 
+
+**Reverse A String :** 
+through python slicing : 
+s = input()  #take input form user **()call the function**
+print(s[::-1])
+string[start : end : step]
+Here:
+start → not given (start from the end )
+end → not given (go till the begining)
+step → -1 (move backwards)
+ So [::-1] means:
+“Take the entire string and read it from right to left.”
+
+now so without using the slicing ::
+s = input()
+rev = ""
+for ch in s:
+    rev = ch + rev
+
+print(rev)
