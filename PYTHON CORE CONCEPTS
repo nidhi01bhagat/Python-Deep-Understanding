@@ -71,7 +71,7 @@ print(rev)
 
 
 
-#Check if the number is palindrome or not 
+#Check if the string is palindrome or not 
 s = input ()
 rev = ""
 for ch in s:
