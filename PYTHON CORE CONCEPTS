@@ -80,3 +80,13 @@ if s == rev:
    print("palindrome")
 else:
    print("not palindorme")
+
+
+#count the vowel in the string 
+s = input()
+count = 0
+for ch in s:
+      if ch in "aeiouAEIOU":
+            count += 1
+     
+print(count)
