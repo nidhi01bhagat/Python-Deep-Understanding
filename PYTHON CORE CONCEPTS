@@ -114,3 +114,11 @@ else:
                   break
         else:
             print("prime number")
+
+
+#Check whether Number is Even OR ODD 
+n = int(input())
+if n % 2 == 0:
+    print("even")
+else:
+    print("odd")
