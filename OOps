@@ -6,5 +6,9 @@ Objects represent real entities
 Objects contain data + behavior
 Objects interact to complete tasks
 
+Example : In a bank, each customer account is treated as an object.
+The account has data like balance and actions like deposit and withdraw.
+Keeping data and actions together helps manage the system easily. This is OOPS.
+
 Difference Between Pop and Oop ?
 “POP focuses on functions operating on data, while OOPS focuses on objects that combine data and behavior, making applications easier to manage.”
