@@ -90,3 +90,16 @@ for ch in s:
             count += 1
      
 print(count)
+
+
+**Count the cons. in the string**
+
+s = input()
+count = 0
+
+for ch in s:
+if ch.isalpha() and ch not in "aeiouAEIOU":
+count += 1
+
+print(count)
+
