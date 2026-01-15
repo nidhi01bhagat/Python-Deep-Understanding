@@ -122,3 +122,21 @@ if n % 2 == 0:
     print("even")
 else:
     print("odd")
+
+
+
+#What is fibonici Series? Also Write a program in python .
+Fibonacci series is a sequence of numbers where:
+Each number is the sum of the previous two numbers.
+
+n = int(input())
+
+a = 0
+b = 1
+
+for i in range(n):
+    print(a, end=" ")
+    c = a + b
+    a = b
+    b = c
+
