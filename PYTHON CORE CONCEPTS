@@ -140,3 +140,13 @@ for i in range(n):
     a = b
     b = c
 
+#Swap the number with using third variable 
+a = int(input())
+b = int(input())
+
+a = 5
+b = 10
+temp = a 
+a = b
+b = temp
+
